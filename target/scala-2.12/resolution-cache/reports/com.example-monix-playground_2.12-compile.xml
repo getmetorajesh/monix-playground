@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.example"
+		module="monix-playground_2.12"
+		revision="0.1.0-SNAPSHOT"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180329004246"/>
+	<dependencies>
+		<module organisation="io.monix" name="monix_2.12">
+			<revision name="3.0.0-RC1" status="release" pubdate="20180318194409" resolver="public" artresolver="public" homepage="https://monix.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2325" time="755" location="/Users/preethi/.ivy2/cache/io.monix/monix_2.12/ivy-3.0.0-RC1.xml" searched="true" original-local-location="/Users/preethi/.ivy2/cache/io.monix/monix_2.12/ivy-3.0.0-RC1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix_2.12/3.0.0-RC1/monix_2.12-3.0.0-RC1.pom"/>
+				<caller organisation="com.example" name="monix-playground_2.12" conf="compile" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="monix_2.12" type="jar" ext="jar" status="successful" details="" size="1202" time="754" location="/Users/preethi/.ivy2/cache/io.monix/monix_2.12/jars/monix_2.12-3.0.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/monix/monix_2.12/3.0.0-RC1/monix_2.12-3.0.0-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.monix" name="monix-java_2.12">
+			<revision name="3.0.0-RC1" status="release" pubdate="20180318194505" resolver="public" artresolver="public" homepage="https://monix.io" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2501" time="750" location="/Users/preethi/.ivy2/cache/io.monix/monix-java_2.12/ivy-3.0.0-RC1.xml" searched="true" original-local-location="/Users/preethi/.ivy2/cache/io.monix/monix-java_2.12/ivy-3.0.0-RC1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-java_2.12/3.0.0-RC1/monix-java_2.12-3.0.0-RC1.pom"/>
+				<caller organisation="io.monix" name="monix_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<artifacts>
+					<artifact name="monix-java_2.12" type="jar" ext="jar" status="successful" details="" size="16733" time="1565" location="/Users/preethi/.ivy2/cache/io.monix/monix-java_2.12/jars/monix-java_2.12-3.0.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/monix/monix-java_2.12/3.0.0-RC1/monix-java_2.12-3.0.0-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.monix" name="monix-reactive_2.12">
+			<revision name="3.0.0-RC1" status="release" pubdate="20180318194559" resolver="public" artresolver="public" homepage="https://monix.io" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2622" time="757" location="/Users/preethi/.ivy2/cache/io.monix/monix-reactive_2.12/ivy-3.0.0-RC1.xml" searched="true" original-local-location="/Users/preethi/.ivy2/cache/io.monix/monix-reactive_2.12/ivy-3.0.0-RC1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/3.0.0-RC1/monix-reactive_2.12-3.0.0-RC1.pom"/>
+				<caller organisation="io.monix" name="monix_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<artifacts>
+					<artifact name="monix-reactive_2.12" type="jar" ext="jar" status="successful" details="" size="1226274" time="2892" location="/Users/preethi/.ivy2/cache/io.monix/monix-reactive_2.12/jars/monix-reactive_2.12-3.0.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/3.0.0-RC1/monix-reactive_2.12-3.0.0-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jctools" name="jctools-core">
+			<revision name="2.1.1" status="release" pubdate="20170926071729" resolver="public" artresolver="public" homepage="https://github.com/JCTools" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="4106" time="761" location="/Users/preethi/.ivy2/cache/org.jctools/jctools-core/ivy-2.1.1.xml" searched="true" original-local-location="/Users/preethi/.ivy2/cache/org.jctools/jctools-core/ivy-2.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jctools/jctools-core/2.1.1/jctools-core-2.1.1.pom"/>
+				<caller organisation="io.monix" name="monix-reactive_2.12" conf="compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="3.0.0-RC1"/>
+				<artifacts>
+					<artifact name="jctools-core" type="bundle" ext="jar" status="successful" details="" size="255316" time="2240" location="/Users/preethi/.ivy2/cache/org.jctools/jctools-core/bundles/jctools-core-2.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jctools/jctools-core/2.1.1/jctools-core-2.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.monix" name="monix-tail_2.12">
+			<revision name="3.0.0-RC1" status="release" pubdate="20180318194257" resolver="public" artresolver="public" homepage="https://monix.io" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2437" time="749" location="/Users/preethi/.ivy2/cache/io.monix/monix-tail_2.12/ivy-3.0.0-RC1.xml" searched="true" original-local-location="/Users/preethi/.ivy2/cache/io.monix/monix-tail_2.12/ivy-3.0.0-RC1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-tail_2.12/3.0.0-RC1/monix-tail_2.12-3.0.0-RC1.pom"/>
+				<caller organisation="io.monix" name="monix_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<artifacts>
+					<artifact name="monix-tail_2.12" type="jar" ext="jar" status="successful" details="" size="427895" time="2414" location="/Users/preethi/.ivy2/cache/io.monix/monix-tail_2.12/jars/monix-tail_2.12-3.0.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/monix/monix-tail_2.12/3.0.0-RC1/monix-tail_2.12-3.0.0-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.monix" name="monix-eval_2.12">
+			<revision name="3.0.0-RC1" status="release" pubdate="20180318194443" resolver="public" artresolver="public" homepage="https://monix.io" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2260" time="752" location="/Users/preethi/.ivy2/cache/io.monix/monix-eval_2.12/ivy-3.0.0-RC1.xml" searched="true" original-local-location="/Users/preethi/.ivy2/cache/io.monix/monix-eval_2.12/ivy-3.0.0-RC1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/3.0.0-RC1/monix-eval_2.12-3.0.0-RC1.pom"/>
+				<caller organisation="io.monix" name="monix_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-tail_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-reactive_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<artifacts>
+					<artifact name="monix-eval_2.12" type="jar" ext="jar" status="successful" details="" size="437366" time="2369" location="/Users/preethi/.ivy2/cache/io.monix/monix-eval_2.12/jars/monix-eval_2.12-3.0.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/3.0.0-RC1/monix-eval_2.12-3.0.0-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.monix" name="monix-execution_2.12">
+			<revision name="3.0.0-RC1" status="release" pubdate="20180318194313" resolver="public" artresolver="public" homepage="https://monix.io" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2885" time="752" location="/Users/preethi/.ivy2/cache/io.monix/monix-execution_2.12/ivy-3.0.0-RC1.xml" searched="true" original-local-location="/Users/preethi/.ivy2/cache/io.monix/monix-execution_2.12/ivy-3.0.0-RC1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/3.0.0-RC1/monix-execution_2.12-3.0.0-RC1.pom"/>
+				<caller organisation="io.monix" name="monix_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-tail_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-eval_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-reactive_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<artifacts>
+					<artifact name="monix-execution_2.12" type="jar" ext="jar" status="successful" details="" size="750768" time="2870" location="/Users/preethi/.ivy2/cache/io.monix/monix-execution_2.12/jars/monix-execution_2.12-3.0.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/3.0.0-RC1/monix-execution_2.12-3.0.0-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.2" status="release" pubdate="20171219070638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/Users/preethi/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.pom"/>
+				<caller organisation="io.monix" name="monix-execution_2.12" conf="compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="3.0.0-RC1"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="2097" time="0" location="/Users/preethi/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-effect_2.12">
+			<revision name="0.10" status="release" pubdate="20180316221750" resolver="public" artresolver="public" homepage="https://typelevel.org/cats-effect/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="successful" details="" size="2830" time="764" location="/Users/preethi/.ivy2/cache/org.typelevel/cats-effect_2.12/ivy-0.10.xml" searched="true" original-local-location="/Users/preethi/.ivy2/cache/org.typelevel/cats-effect_2.12/ivy-0.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.10/cats-effect_2.12-0.10.pom"/>
+				<caller organisation="io.monix" name="monix-execution_2.12" conf="compile, runtime" rev="0.10" rev-constraint-default="0.10" rev-constraint-dynamic="0.10" callerrev="3.0.0-RC1"/>
+				<artifacts>
+					<artifact name="cats-effect_2.12" type="jar" ext="jar" status="successful" details="" size="566448" time="2566" location="/Users/preethi/.ivy2/cache/org.typelevel/cats-effect_2.12/jars/cats-effect_2.12-0.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.10/cats-effect_2.12-0.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-core_2.12">
+			<revision name="1.0.1" status="release" pubdate="20171231234951" resolver="public" artresolver="public" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="4725" time="759" location="/Users/preethi/.ivy2/cache/org.typelevel/cats-core_2.12/ivy-1.0.1.xml" searched="true" original-local-location="/Users/preethi/.ivy2/cache/org.typelevel/cats-core_2.12/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1.pom"/>
+				<caller organisation="org.typelevel" name="cats-effect_2.12" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.10"/>
+				<artifacts>
+					<artifact name="cats-core_2.12" type="jar" ext="jar" status="successful" details="" size="3837683" time="5063" location="/Users/preethi/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-kernel_2.12">
+			<revision name="1.0.1" status="release" pubdate="20171231234830" resolver="public" artresolver="public" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="3984" time="757" location="/Users/preethi/.ivy2/cache/org.typelevel/cats-kernel_2.12/ivy-1.0.1.xml" searched="true" original-local-location="/Users/preethi/.ivy2/cache/org.typelevel/cats-kernel_2.12/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1.pom"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0.1"/>
+				<artifacts>
+					<artifact name="cats-kernel_2.12" type="jar" ext="jar" status="successful" details="" size="3144953" time="3937" location="/Users/preethi/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-macros_2.12">
+			<revision name="1.0.1" status="release" pubdate="20171231234800" resolver="public" artresolver="public" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="4161" time="751" location="/Users/preethi/.ivy2/cache/org.typelevel/cats-macros_2.12/ivy-1.0.1.xml" searched="true" original-local-location="/Users/preethi/.ivy2/cache/org.typelevel/cats-macros_2.12/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1.pom"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0.1"/>
+				<artifacts>
+					<artifact name="cats-macros_2.12" type="jar" ext="jar" status="successful" details="" size="6153" time="1361" location="/Users/preethi/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="machinist_2.12">
+			<revision name="0.6.2" status="release" pubdate="20170601132738" resolver="public" artresolver="public" homepage="http://github.com/typelevel/machinist" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="1780" time="744" location="/Users/preethi/.ivy2/cache/org.typelevel/machinist_2.12/ivy-0.6.2.xml" searched="true" original-local-location="/Users/preethi/.ivy2/cache/org.typelevel/machinist_2.12/ivy-0.6.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2.pom"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.0.1"/>
+				<caller organisation="org.typelevel" name="cats-macros_2.12" conf="compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.0.1"/>
+				<artifacts>
+					<artifact name="machinist_2.12" type="jar" ext="jar" status="successful" details="" size="33650" time="1627" location="/Users/preethi/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.4" status="release" pubdate="20171011032224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/Users/preethi/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="file:////Users/preethi/.sbt/preloaded/org.scala-lang/scala-reflect/2.12.4/ivys/ivy.xml"/>
+				<caller organisation="org.typelevel" name="machinist_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.6.2"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3587892" time="0" location="/Users/preethi/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.4.jar">
+						<origin-location is-local="false" location="file:////Users/preethi/.sbt/preloaded/org.scala-lang/scala-reflect/2.12.4/jars/scala-reflect.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.4" status="release" pubdate="20171011030456" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2640" time="0" location="/Users/preethi/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="file:////Users/preethi/.sbt/preloaded/org.scala-lang/scala-library/2.12.4/ivys/ivy.xml"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="2.12.4"/>
+				<caller organisation="io.monix" name="monix_2.12" conf="default, compile, runtime, master" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.0.0-RC1"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="1.0.1"/>
+				<caller organisation="org.typelevel" name="cats-macros_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="1.0.1"/>
+				<caller organisation="io.monix" name="monix-eval_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-execution_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.0.0-RC1"/>
+				<caller organisation="com.example" name="monix-playground_2.12" conf="compile" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="cats-effect_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.10"/>
+				<caller organisation="io.monix" name="monix-tail_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.0.0-RC1"/>
+				<caller organisation="org.typelevel" name="cats-kernel_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="1.0.1"/>
+				<caller organisation="org.typelevel" name="machinist_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.6.2"/>
+				<caller organisation="io.monix" name="monix-java_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-reactive_2.12" conf="compile, runtime" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.0.0-RC1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5247152" time="0" location="/Users/preethi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar">
+						<origin-location is-local="false" location="file:////Users/preethi/.sbt/preloaded/org.scala-lang/scala-library/2.12.4/jars/scala-library.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
